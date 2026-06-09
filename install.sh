@@ -7,8 +7,8 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-GITEE_URL="https://gitee.com/loulan-network/socks5/releases/download/V1.0.0/work"
-GITHUB_URL="https://github.com/Toby1GO/Socks5/releases/download/Socks5/work"
+GITEE_URL="https://gitee.com/loulan-network/socks5/releases/download/V1.0.0/Socks5"
+GITHUB_URL="https://github.com/Toby1GO/Socks5/releases/download/Socks5/Socks5"
 WORK_DIR=$(pwd)
 EXEC_FILE="$WORK_DIR/work"
 SERVICE_NAME="socks5-work"
