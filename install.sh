@@ -77,11 +77,6 @@ systemctl enable "$SERVICE_NAME"
 systemctl start "$SERVICE_NAME"
 
 echo "=============================="
-echo "安装成功！程序已设置为开机自启动并在后台运行。"
-echo "注意：请勿移动或删除当前目录下的 work 文件，否则自启将失效。"
-echo "=============================="
-echo "正在实时输出运行日志 (按 Ctrl+C 退出日志查看，程序将继续在后台运行)："
+echo "安装成功！程序已设置请运行 cat clients.txt 查看搭建成功后的代理信息。"
 echo "------------------------------"
 
-# 6. 实时追踪并显示日志
-journalctl -u "$SERVICE_NAME" -f
